@@ -5,10 +5,14 @@ public class Main {
         ITelephone timsPhone;
         timsPhone = new DeskPhone(12345);
         timsPhone.powerOn();
-        timsPhone.cellPhone(12345);
+        timsPhone.callPhone(12345);
         timsPhone.answer();
 
 
+        timsPhone = new MobilePhone(23456);
+        // timsPhone.powerOn();
+        timsPhone.callPhone(23456);
+        timsPhone.answer();
 
 
 
